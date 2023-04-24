@@ -5,6 +5,7 @@ import NavBar from './components/navbar/navbar';
 import Image from './components/Image/image';
 
 import Features from './components/features/Features';
+import Explore from './components/explore/Explore';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <NavBar></NavBar>
       <Image></Image>
       <Features></Features>
+      <Explore></Explore>
     </div>
   );
 }

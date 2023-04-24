@@ -6,7 +6,7 @@ import OutlinedButton from './Outlined_Button'
 export default function Image() {
     return (
         <div class="flex justify-center relative mix-blend-lighten">
-            <img class="object-cover w-full px-4 rounded-xl relative h-[] object-right" src={image} />
+            <img class="object-cover w-full  relative h-[] object-right" src={image} />
             <div className="absolute  w-auto mx-44 sm:mx-60 mt-2 sm:mt-2 md:mt-3 lg:mt-10 xl:mt-6 2xl:mt-40 object-cover object-right">
                 <div className='flex flex-col font-Montserrat'>
                     <h1 style={{lineHeight:"4rem"}} className='tracking-wide text-5xl capitalize text-white font-semibold'>empowering undeserved market with digital skill and career opportunity </h1>

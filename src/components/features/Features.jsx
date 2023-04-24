@@ -8,16 +8,16 @@ import digitalMagazine from '../../assets/images/digital_magazine.png'
 import Mission from './Mission'
 export default function Features() {
     return (
-        <div className="">
-            <Mission></Mission>
+        <div className="mb-40">
+            <Mission headerText={"Features"} descriptionText={"ready to take your career or business to the next level with our amazing features"}></Mission>
 
-            <div className="items-center lg:flex bg-[#24768C] rounded-3xl px-6 py-10">
+            <div className="items-center lg:flex  rounded-3xl px-6 py-10">
 
-                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 mx-auto">
-                    <FeatureCard imageUrl={smartDesigner} text="The Smart Designer" link="#" bgColor="#DA1622"></FeatureCard>
-                    <FeatureCard imageUrl={jobConnector} text="Job Connector" link="#" bgColor="#F2BA2C"></FeatureCard>
-                    <FeatureCard imageUrl={businessAccount} text="Business Account" link="#" bgColor="#F2BA2C"></FeatureCard>
-                    <FeatureCard imageUrl={digitalMagazine} text="Digital Magazine" link="#" bgColor="#DA1622"></FeatureCard>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-x-48 gap-y-28 mx-auto">
+                    <FeatureCard imageUrl={smartDesigner} headerText="Smart Designer"  descriptionText={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the "}></FeatureCard>
+                    <FeatureCard imageUrl={jobConnector} headerText="Job Connector" descriptionText={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the "}></FeatureCard>
+                    <FeatureCard imageUrl={businessAccount} headerText="Business Account" descriptionText={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the "}></FeatureCard>
+                    <FeatureCard imageUrl={digitalMagazine} headerText="Digital Magazine" descriptionText={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the "}></FeatureCard>
                 </div>
 
             </div>

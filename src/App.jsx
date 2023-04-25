@@ -6,6 +6,7 @@ import Image from './components/Image/image';
 
 import Features from './components/features/Features';
 import Explore from './components/explore/Explore';
+import Pricing from './components/pricing/Pricing';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Image></Image>
       <Features></Features>
       <Explore></Explore>
+      <Pricing></Pricing>
     </div>
   );
 }

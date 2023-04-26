@@ -9,6 +9,7 @@ import Explore from "./components/explore/Explore";
 import Pricing from "./components/pricing/Pricing";
 import Magazine from "./components/magazine/Magazine";
 import FAQ from "./components/FAQ/FAQ";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Pricing></Pricing>
       <Magazine></Magazine>
       <FAQ></FAQ>
+      <Footer></Footer>
     </div>
   );
 }

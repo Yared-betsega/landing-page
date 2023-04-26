@@ -9,7 +9,7 @@ export default function PriceCard({ type, price, description, actions, url }) {
                 <div className="flex items-baseline text-gray-900 ">
                     <span className="text-3xl font-semibold">$</span>
                     <span className="text-3xl font-extrabold tracking-tight">{price}</span>
-                    <span className="ml-1 text-xl font-bold ">/Monthly</span>
+                    <span className="ml-1 text-xl font-bold">/Monthly</span>
                 </div>
                 <p className='my-4 text-gray-600 text-start text-sm'>{description}</p>
                 <ul role="list" className="space-y-5 my-7">

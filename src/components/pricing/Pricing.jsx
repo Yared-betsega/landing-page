@@ -24,7 +24,7 @@ export default function Pricing() {
     ]
 
     return (
-        <div>
+        <div className='mb-40'>
             <Mission headerText={"Pricing"} descriptionText={"we offer a range of pricing options, designed to meet the diverse needs of out clients"}></Mission>
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-28 px-20 py-5'>
                 <PriceCard type={"Social"} price={8} description={"It offers a reliable and cost-effective hosting solution with all the essentials you need to get started."} actions={socialAccountActions} url={"#"}></PriceCard>

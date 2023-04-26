@@ -1,13 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import React from 'react';
-import NavBar from './components/navbar/navbar';
-import Image from './components/Image/image';
+import logo from "./logo.svg";
+import "./App.css";
+import React from "react";
+import NavBar from "./components/navbar/navbar";
+import Image from "./components/Image/image";
 
-import Features from './components/features/Features';
-import Explore from './components/explore/Explore';
-import Pricing from './components/pricing/Pricing';
-import Magazine from './components/magazine/Magazine';
+import Features from "./components/features/Features";
+import Explore from "./components/explore/Explore";
+import Pricing from "./components/pricing/Pricing";
+import Magazine from "./components/magazine/Magazine";
+import FAQ from "./components/FAQ/FAQ";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Explore></Explore>
       <Pricing></Pricing>
       <Magazine></Magazine>
+      <FAQ></FAQ>
     </div>
   );
 }

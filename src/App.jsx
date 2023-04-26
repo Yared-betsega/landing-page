@@ -10,6 +10,7 @@ import Pricing from "./components/pricing/Pricing";
 import Magazine from "./components/magazine/Magazine";
 import FAQ from "./components/FAQ/FAQ";
 import Footer from "./components/footer/Footer";
+import Download from "./components/download/Download";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Pricing></Pricing>
       <Magazine></Magazine>
       <FAQ></FAQ>
+      <Download></Download>
       <Footer></Footer>
     </div>
   );

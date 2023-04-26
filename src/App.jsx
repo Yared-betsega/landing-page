@@ -7,6 +7,7 @@ import Image from './components/Image/image';
 import Features from './components/features/Features';
 import Explore from './components/explore/Explore';
 import Pricing from './components/pricing/Pricing';
+import Magazine from './components/magazine/Magazine';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Features></Features>
       <Explore></Explore>
       <Pricing></Pricing>
+      <Magazine></Magazine>
     </div>
   );
 }

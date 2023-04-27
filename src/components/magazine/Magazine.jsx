@@ -2,6 +2,7 @@ import React from "react";
 import Intro from "../features/Intro";
 import Account from "../explore/Account";
 import ubuntu_magazine from "../../assets/images/ubuntu_magazine.png";
+import ubuntu_magazine_right from '../../assets/images/ubuntu_magazine_right.png'
 export default function Magazine() {
   return (
     <div className="mb-40">
@@ -22,7 +23,7 @@ export default function Magazine() {
       ></Account>
       <Account
         swap={false}
-        image={ubuntu_magazine}
+        image={ubuntu_magazine_right}
         title={"The Hot Platform: First edition"}
         description={
           "Our inaugural issue features exclusive interviews with industry experts, in-depth guides on maximizing your social media presence, and insider tips on using the Hot Platform to take your brand to the next level."

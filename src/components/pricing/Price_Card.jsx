@@ -2,7 +2,7 @@ import React from "react";
 
 export default function PriceCard({ type, price, description, actions, url }) {
   return (
-    <div className="w-full flex flex-col justify-between items-start max-w-sm p-4 bg-white rounded-lg shadow-2xl sm:p-8 font-Montserrat mx-3 h-[90vh]">
+    <div className="w-full flex flex-col justify-between items-start max-w-sm p-4 bg-white rounded-lg shadow-xl sm:p-6 font-Montserrat mx-3 h-[90vh]">
       <div>
         <h5 className="mb-4 text-xl font-semibold text-start ">{type}</h5>
         <div className="flex items-baseline text-gray-900 ">
@@ -31,7 +31,7 @@ export default function PriceCard({ type, price, description, actions, url }) {
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <span className="text-sm test-start font-normal leading-tight text-gray-600 ">
+                <span className="text-sm text-start font-normal leading-tight text-gray-600 ">
                   {text}
                 </span>
               </li>
@@ -39,7 +39,7 @@ export default function PriceCard({ type, price, description, actions, url }) {
           })}
         </ul>
       </div>
-      <div style={{ textAlign: "end" }} className="w-full self-end">
+      <div style={{ textAlign: "end" }} className="w-full self-end mb-10">
         <a
           href={url}
           type="button"

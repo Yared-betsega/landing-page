@@ -1,23 +1,22 @@
 import React from "react";
-import Button from "../navbar/Button";
 import FeatureCard from "./FeatureCard";
 import smartDesigner from "../../assets/images/smart_designer.png";
 import jobConnector from "../../assets/images/job_connector.png";
 import businessAccount from "../../assets/images/business_account.png";
 import digitalMagazine from "../../assets/images/digital_magazine.png";
-import Mission from "./Mission";
+import Intro from "./Intro";
 export default function Features() {
   return (
     <div className="mb-40">
-      <Mission
+      <Intro
         headerText={"Features"}
         descriptionText={
           "ready to take your career or business to the next level with our amazing features"
         }
-      ></Mission>
+      ></Intro>
 
       <div className="items-center lg:flex  rounded-3xl px-6 py-10">
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-x-48 gap-y-28 mx-auto">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-x-40 sm:gap-x-10 xl:gap-x-72 gap-y-10 sm:gap-y-28 mx-auto items-center">
           <FeatureCard
             imageUrl={smartDesigner}
             headerText="Smart Designer"

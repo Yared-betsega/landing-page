@@ -1,5 +1,5 @@
 import React from "react";
-import Mission from "../features/Mission";
+import Intro from "../features/Intro";
 import Account from "./Account";
 import socialAccount from "../../assets/images/social_account.png";
 import professionalAccount from "../../assets/images/professional_account.png";
@@ -8,12 +8,12 @@ import businessAccountImage from "../../assets/images/business_account_image.png
 export default function Explore() {
   return (
     <div>
-      <Mission
+      <Intro
         headerText={"Explore"}
         descriptionText={
           "we offer a range of account options, choose the account that is right for you and start achieving your career dream"
         }
-      ></Mission>
+      ></Intro>
       <Account
         swap={false}
         image={socialAccount}

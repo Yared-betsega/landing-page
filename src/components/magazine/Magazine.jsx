@@ -1,16 +1,16 @@
 import React from "react";
-import Mission from "../features/Mission";
+import Intro from "../features/Intro";
 import Account from "../explore/Account";
 import ubuntu_magazine from "../../assets/images/ubuntu_magazine.png";
 export default function Magazine() {
   return (
     <div className="mb-40">
-      <Mission
+      <Intro
         headerText={"The Hotplatform Magazine"}
         descriptionText={
           "Explore our selection of digital magazines that cover a range of topics, from business to lifestyle."
         }
-      ></Mission>
+      ></Intro>
       <Account
         swap={true}
         image={ubuntu_magazine}

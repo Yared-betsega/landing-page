@@ -10,7 +10,10 @@ module.exports = {
         Poppins: ['Poppins', 'sans-serif']
       },
       lineHeight:{
-        '12':"3rem"
+        '12':"3rem",
+        '14': "4rem",
+        '16': "5rem",
+        '18': "6rem"
       }
     },
   },

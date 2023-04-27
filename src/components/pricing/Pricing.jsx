@@ -1,5 +1,5 @@
 import React from "react";
-import Mission from "../features/Mission";
+import Intro from "../features/Intro";
 import PriceCard from "./Price_Card";
 
 export default function Pricing() {
@@ -25,12 +25,12 @@ export default function Pricing() {
 
   return (
     <div className="mb-40">
-      <Mission
+      <Intro
         headerText={"Pricing"}
         descriptionText={
           "we offer a range of pricing options, designed to meet the diverse needs of out clients"
         }
-      ></Mission>
+      ></Intro>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-28 px-20 py-5">
         <PriceCard
           type={"Social"}

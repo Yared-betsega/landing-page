@@ -5,7 +5,7 @@ export default function Button({ text }) {
     <div className="flex">
       <button
         style={{ textAlign: "end" }}
-        className="px-14 py-4 ml-5 font-semibold text-xl tracking-wide text-black  transition-colors duration-300 transform bg-[#DAA624] rounded-2xl hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80"
+        className="px-8 xl:px-14 py-1 xl:py-4 ml-5 font-semibold md:text-normal lg:text-xl text-black  transition-colors duration-300 transform bg-[#DAA624] rounded-2xl hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80"
       >
         {text}
       </button>

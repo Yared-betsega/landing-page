@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Mission from "../features/Mission";
+import Intro from "../features/Intro";
 import Question from "./Question";
 import { accordionData } from "./question_and_answer";
 
@@ -14,12 +14,12 @@ export default function FAQ() {
 
   return (
     <div className="mb-40">
-      <Mission
+      <Intro
         headerText={"Frequently asked Questions"}
         descriptionText={
           "Explore some of the most common questions we received from users. "
         }
-      ></Mission>
+      ></Intro>
 
       {accordionData.map((data, index) => {
         return (

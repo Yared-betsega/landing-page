@@ -9,7 +9,7 @@ import {
 export default function Testimonial() {
   return (
     <div className="">
-      <div className="flex py-16">
+      <div className="lg:flex py-16">
         <div className="w-full">
           <section className="bg-white ">
             <div className="container px-6 py-10 mx-auto">

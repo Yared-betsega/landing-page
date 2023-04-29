@@ -13,7 +13,7 @@ export default function Testimonial() {
         <div className="w-full">
           <section className="bg-white ">
             <div className="container px-6 py-10 mx-auto">
-              <div className="flex items-center max-w-6xl mx-auto ">
+              <div className="flex items-center  mx-auto ">
                 <button
                   title="left arrow"
                   className="hidden p-3 text-gray-800 bg-gray-100 transition-colors duration-300  rounded-full rtl:-scale-x-100  lg:block hover:bg-gray-100"
@@ -52,21 +52,20 @@ export default function Testimonial() {
         </div>
 
         <div className="w-full">
-        <div className="flex">
-              <button
-                style={{ textAlign: "end" }}
-                className="px-5 py-1 font-semibold text-lg tracking-wide text-[#DAA624]  transition-colors duration-300 transform bg-[#F5EFDE] rounded-xl hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80"
-              >
-                Testimonies From Client
-              </button>
-            </div>
+          <div className="flex">
+            <button
+              style={{ textAlign: "end" }}
+              className="px-5 py-1 font-semibold text-lg tracking-wide text-[#DAA624]  transition-colors duration-300 transform bg-[#F5EFDE] rounded-xl hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80"
+            >
+              Testimonies From Client
+            </button>
+          </div>
           <div class="mt-8 lg:w-full lg:px-6 lg:mt-0 text-start">
-            
             <h1 class="text-2xl font-semibold text-gray-800 lg:text-4xl lg:w-full my-10">
               What our client say about us
             </h1>
 
-            <p class="max-w-lg mt-6 my-10 text-xl tracking-wide">
+            <p class=" mt-6 my-10 text-xl tracking-wide">
               Lorem Ipsum has been the industry's standard dummy text ever since
               the 1500s..
             </p>
@@ -74,7 +73,7 @@ export default function Testimonial() {
               <a
                 href="#"
                 style={{ textAlign: "end" }}
-                className="px-14 py-2 ml-5 font-semibold text-xl tracking-wide text-white  transition-colors duration-300 transform bg-[#DAA624] rounded-xl hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80"
+                className="px-14 py-2  font-semibold text-xl tracking-wide text-white  transition-colors duration-300 transform bg-[#DAA624] rounded-xl hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80"
               >
                 learn more
               </a>

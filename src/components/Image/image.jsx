@@ -11,7 +11,7 @@ export default function Image() {
       <div className="absolute  w-auto mx-10  md:mx-28 xl:mx-60 mt-40  object-cover object-right">
         <div className="flex flex-col font-Montserrat">
           <h1
-            className="tracking-wide text-xl sm:text-2xl md:text-3xl xl:text-5xl leading-loose sm:leading-normal md:leading-normal xl:leading-normal capitalize text-white font-semibold"
+            className="tracking-wide text-3xl sm:text-4xl xl:text-5xl leading-normal sm:leading-normal md:leading-normal xl:leading-normal capitalize text-white font-semibold"
           >
             empowering undeserved market with digital skill and career
             opportunity{" "}

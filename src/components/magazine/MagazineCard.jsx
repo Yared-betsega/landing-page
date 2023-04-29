@@ -3,7 +3,7 @@ import React from "react";
 export default function MagazineCard({ swap, image, title, description, url }) {
   return (
     <section class="bg-white font-Montserrat">
-      <div class="container  py-10 mx-auto">
+      <div class="container  py-4 mx-auto">
         <div class=" lg:flex lg:items-center">
           <img
             class={`${
@@ -13,12 +13,12 @@ export default function MagazineCard({ swap, image, title, description, url }) {
             alt="The social account"
           ></img>
 
-          <div class="mt-8 lg:w-1/2 lg:px-20 lg:mt-0 text-start">
-            <h1 class="text-2xl font-semibold text-gray-800 lg:text-4xl lg:w-96 my-10">
+          <div class="mt-8 px-8 lg:w-1/2 lg:px-20 lg:mt-0 text-start">
+            <h1 class="text-2xl font-semibold text-gray-800 lg:text-4xl lg:w-96 mt-10">
               {title}
             </h1>
 
-            <p class="max-w-lg mt-6 my-4 text-xl tracking-wide">
+            <p class="max-w-lg mt-6 my-4 text-base md:text-xl tracking-wide">
               {description}
             </p>
             <div className="flex mb-28">

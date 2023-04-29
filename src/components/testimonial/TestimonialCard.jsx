@@ -3,7 +3,7 @@ import { IoMdQuote } from "react-icons/io";
 import { AiFillStar } from "react-icons/ai";
 export default function TestimonialCard({ image, name, desc, rating }) {
   return (
-    <div className="mx-4 p-4 flex flex-col gap-10 text-start shadow-lg">
+    <div className="bg-white rounded-3xl mx-2.5 p-4 flex flex-col gap-10 text-start ">
       <div className="flex justify-between">
         <img
           className="object-cover rounded-lg w-28 h-28"

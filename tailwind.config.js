@@ -16,8 +16,9 @@ module.exports = {
         '18': "6rem"
       },
       fontSize:{
+        '4.5xl': "2.7rem",
         '5.5xl': "3.5rem"
-      }
+      },
     },
   },
   plugins: [],

@@ -1,6 +1,5 @@
 import React from "react";
-import Intro from "../features/Intro";
-import Account from "../explore/Account";
+import Intro from "../common/Intro";
 import ubuntu_magazine from "../../assets/images/ubuntu_magazine.png";
 import ubuntu_magazine_right from '../../assets/images/ubuntu_magazine_right.png'
 import MagazineCard from "./MagazineCard";

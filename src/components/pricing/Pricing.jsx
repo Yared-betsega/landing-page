@@ -1,5 +1,5 @@
 import React from "react";
-import Intro from "../features/Intro";
+import Intro from "../common/Intro";
 import PriceCard from "./Price_Card";
 
 export default function Pricing() {

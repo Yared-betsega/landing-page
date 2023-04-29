@@ -4,7 +4,7 @@ import smartDesigner from "../../assets/images/smart_designer.png";
 import jobConnector from "../../assets/images/job_connector.png";
 import businessAccount from "../../assets/images/business_account.png";
 import digitalMagazine from "../../assets/images/digital_magazine.png";
-import Intro from "./Intro";
+import Intro from "../common/Intro";
 export default function Features() {
   return (
     <div className="mb-40">

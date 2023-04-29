@@ -1,5 +1,5 @@
 import React from "react";
-import Intro from "../features/Intro";
+import Intro from "../common/Intro";
 import Account from "./Account";
 import socialAccount from "../../assets/images/social_account.png";
 import professionalAccount from "../../assets/images/professional_account.png";

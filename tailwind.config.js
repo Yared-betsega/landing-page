@@ -14,6 +14,9 @@ module.exports = {
         '14': "4rem",
         '16': "5rem",
         '18': "6rem"
+      },
+      fontSize:{
+        '5.5xl': "3.5rem"
       }
     },
   },

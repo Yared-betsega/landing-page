@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Intro from "../features/Intro";
+import Intro from "../common/Intro";
 import Question from "./Question";
 import { accordionData } from "./question_and_answer";
 

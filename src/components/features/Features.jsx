@@ -16,7 +16,7 @@ export default function Features() {
       ></Intro>
 
       <div className="items-center lg:flex  rounded-3xl px-6 py-10">
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-x-40 sm:gap-x-10 xl:gap-x-72 gap-y-10 sm:gap-y-28 mx-auto items-center">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-x-40 sm:gap-x-10 xl:gap-x-60 gap-y-10 sm:gap-y-28 mx-auto items-center">
           <FeatureCard
             imageUrl={smartDesigner}
             headerText="Smart Designer"

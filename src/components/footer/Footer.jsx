@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../../assets/images/larger_logo.png'
+import logo from '../../assets/images/logo.png'
 export default function Footer() {
   return (
     <footer className="bg-[#0B081C] text-start mt-40 pt-40 pb-20 font-Montserrat">

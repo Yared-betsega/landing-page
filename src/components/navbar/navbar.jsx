@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/larger_logo.png";
 import Button from "./Button";
 import Link from "./Link";
 export default function NavBar() {
@@ -10,17 +10,21 @@ export default function NavBar() {
   return (
     <nav className="relative bg-[#0B081C] shadow">
       <div className="container mx-auto md:flex md:justify-between md:items-center">
-        <div className="flex items-center justify-between ml-20">
-          <a href="#">
-            <img className="w-30 h-10 sm:h-20 md:h-28" src={logo} alt=""></img>
-          </a>
+        <div className="flex items-center justify-between lg:ml-20">
+        <a href="#">
+                <img
+                  className="object-cover w-auto h-20 md:h-28"
+                  src={logo}
+                  alt=""
+                ></img>
+              </a>
 
           <div className="flex md:hidden">
             <button
               x-cloak
               onClick={changeOpenState}
               type="button"
-              className="text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400"
+              className="text-white  mr-8 hover:text-gray-600  focus:outline-none focus:text-gray-600 "
               aria-label="toggle menu"
             >
               {!isOpen ? (
@@ -67,18 +71,18 @@ export default function NavBar() {
             isOpen
               ? "translate-x-0 opacity-100 "
               : "opacity-0 -translate-x-full "
-          } absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-[#0B081C] md:mt-0 md:p-0 md:top-0 md:relative md:bg-transparent md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center`}
+          } absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-[#0B081C] md:mt-0 md:p-0 md:top-0 md:relative md:bg-transparent md:justify-between md:opacity-100 md:translate-x-0 md:flex md:items-center`}
         >
           <div
             style={{ fontFamily: "Montserrat" }}
-            className="flex flex-col md:flex-row md:mx-6"
+            className="flex flex-col md:flex-row md:mx-auto"
           >
             <Link text={"Home"} url={"#"}></Link>
             <Link text={"Explore"} url={"#"}></Link>
             <Link text={"Magazine"} url={"#"}></Link>
             <Link text={"Get in Touch"} url={"#"}></Link>
           </div>
-          <div className="flex pr-16 items-center justify-center font-Montserrat">
+          <div className="flex lg:pr-16 items-center justify-center font-Montserrat">
             <Link text={"Login"} url={"#"}></Link>
             <Button text={"Sign up"}></Button>
           </div>

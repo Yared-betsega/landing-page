@@ -15,7 +15,7 @@ import Testimonial from "./components/testimonial/Testimonial";
 
 function App() {
   return (
-    <div className="App bg-[#FCFDFD]">
+    <div className="App ">
       <NavBar></NavBar>
       <Image></Image>
       <Features></Features>

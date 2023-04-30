@@ -1,5 +1,5 @@
 import React from "react";
-import List_Item from "./List_Item";
+import ListItem from "./List_Item";
 
 export default function PriceCard({ type, price, description, actions, url }) {
   return (
@@ -17,7 +17,7 @@ export default function PriceCard({ type, price, description, actions, url }) {
         <ul role="list" className="space-y-5 my-7">
           {actions.map((text, key) => {
             return (
-              <List_Item text={text}></List_Item>
+              <ListItem text={text}></ListItem>
             );
           })}
         </ul>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function List_Item({text}) {
+export default function ListItem({text}) {
   return (
     <li className="flex space-x-3    ">
                 <svg

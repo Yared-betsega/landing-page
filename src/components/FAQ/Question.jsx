@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Collapse } from "react-collapse";
 import { AiFillCaretDown, AiFillCaretUp } from "react-icons/ai";
 export default function Question({ open, toggle, title, desc }) {

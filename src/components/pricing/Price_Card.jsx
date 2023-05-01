@@ -3,8 +3,8 @@ import ListItem from "./List_Item";
 
 export default function PriceCard({ type, price, description, actions, url }) {
   return (
-    <div className="w-full flex flex-col justify-between items-start max-w-sm p-5 bg-white rounded-lg drop-shadow-[0_4px_10px_rgba(0,0,0,0.08)] sm:p-7 font-Montserrat mx-3 h-[80vh] sm:h-[90vh]">
-      <div>
+    <div className="w-full flex flex-col justify-between items-start max-w-sm p-5 bg-white rounded-lg drop-shadow-[0_4px_10px_rgba(0,0,0,0.08)] sm:p-7 font-Montserrat mx-3  min-h-fit">
+      <div className="mb-40">
         <h5 className="mb-4 text-xl font-semibold text-start ">{type}</h5>
         <div className="flex items-baseline text-gray-900 ">
           <span className="text-3xl font-semibold">$</span>

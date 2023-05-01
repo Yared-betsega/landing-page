@@ -3,12 +3,9 @@ import image from "../../assets/images/upper_image.png";
 import OutlinedButton from "./Outlined_Button";
 export default function Image() {
   return (
-    <div class="flex justify-center relative mix-blend-lighten min-h-screen">
-      <img
-        class="object-cover w-full  relative h-[] object-right"
-        src={image}
-      />
-      <div className="absolute  w-auto mx-10  md:mx-28 xl:mx-60 mt-40  object-cover object-right">
+    <div style={{ backgroundImage: "url(" + image + ")" }} class="flex justify-center  mix-blend-lighten min-h-fit">
+      
+      <div className="my-40  w-auto mx-10  md:mx-28 xl:mx-60 mt-40  object-cover object-right">
         <div className="flex flex-col font-Montserrat">
           <h1
             className="tracking-wide text-3xl sm:text-4xl xl:text-5xl leading-normal sm:leading-normal md:leading-normal xl:leading-normal capitalize text-white font-semibold"

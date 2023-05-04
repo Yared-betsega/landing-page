@@ -1,9 +1,10 @@
 import React from "react";
 import logo from "../../assets/images/larger_logo.png";
-import {RiInstagramFill} from 'react-icons/ri'
-import {AiFillTwitterCircle} from 'react-icons/ai'
-import {FaFacebook} from 'react-icons/fa'
-import {SiDiscord} from 'react-icons/si'
+import { RiInstagramFill } from "react-icons/ri";
+import { AiFillTwitterCircle } from "react-icons/ai";
+import { FaFacebook } from "react-icons/fa";
+import { SiDiscord } from "react-icons/si";
+import FooterLink from "./FooterLink";
 export default function Footer() {
   return (
     <footer className="bg-[#0B081C] text-start mt-40 pt-24 pb-20 font-Montserrat">
@@ -30,8 +31,8 @@ export default function Footer() {
                     className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
                     aria-label="Reddit"
                   >
-                    <RiInstagramFill size={50} ></RiInstagramFill>
-                    
+                    <RiInstagramFill size={50}></RiInstagramFill>
+
                     {/* <svg
                       className="w-10 h-10 fill-current"
                       viewBox="0 0 24 24"
@@ -48,7 +49,6 @@ export default function Footer() {
                     aria-label="Facebook"
                   >
                     <AiFillTwitterCircle size={50}></AiFillTwitterCircle>
-                    
                   </a>
 
                   <a
@@ -91,92 +91,35 @@ export default function Footer() {
             <div className="flex justify-around">
               <div>
                 <h3 className="text-white lg:text-2xl font-bold">Company</h3>
-                <a
-                  href="#"
-                  className="block text-white font-light mt-3 hover:underline"
-                >
-                  About Us
-                </a>
-                <a
-                  href="#"
-                  className="block text-white font-light mt-3 hover:underline"
-                >
-                  Career
-                </a>
-                <a
-                  href="#"
-                  className="block text-white font-light mt-3 hover:underline"
-                >
-                  Contact Us
-                </a>
-                <a
-                  href="#"
-                  className="block text-white font-light mt-3 hover:underline"
-                >
-                  Legal and Privacy
-                </a>
-                <a
-                  href="#"
-                  className="block text-white font-light mt-3 hover:underline"
-                >
-                  Terms and Conditions
-                </a>
+                <FooterLink text={"About Us"} url={"#"}></FooterLink>
+                <FooterLink text={"Career"} url={"#"}></FooterLink>
+                <FooterLink text={"Contact Us"} url={"#"}></FooterLink>
+                <FooterLink text={"Legal and Privacy"} url={"#"}></FooterLink>
+                <FooterLink
+                  text={"Terms and Conditions"}
+                  url={"#"}
+                ></FooterLink>
               </div>
 
               <div>
                 <h3 className="text-white lg:text-2xl font-bold">Accounts</h3>
-                <a
-                  href="#"
-                  className="block text-white font-light mt-3 hover:underline"
-                >
-                  Social Account
-                </a>
-                <a
-                  href="#"
-                  className="block text-white font-light mt-3 hover:underline"
-                >
-                  Professional Account
-                </a>
-                <a
-                  href="#"
-                  className="block text-white font-light mt-3 hover:underline"
-                >
-                  Business Account
-                </a>
+                <FooterLink text={"Social Account"} url={"#"}></FooterLink>
+                <FooterLink
+                  text={"Professional Account"}
+                  url={"#"}
+                ></FooterLink>
+                <FooterLink text={"Business Account"} url={"#"}></FooterLink>
               </div>
 
               <div>
                 <h3 className="text-white lg:text-2xl font-bold">Explorer</h3>
-                <a
-                  href="#"
-                  className="block text-white font-light mt-3 hover:underline"
-                >
-                  The Smart Designer
-                </a>
-                <a
-                  href="#"
-                  className="block text-white font-light mt-3 hover:underline"
-                >
-                  Job Connector
-                </a>
-                <a
-                  href="#"
-                  className="block text-white font-light mt-3 hover:underline"
-                >
-                  Digital Magazine
-                </a>
-                <a
-                  href="#"
-                  className="block text-white font-light mt-3 hover:underline"
-                >
-                  Blog
-                </a>
-                <a
-                  href="#"
-                  className="block text-white font-light mt-3 hover:underline"
-                >
-                  Pricing
-                </a>
+                <FooterLink text={"The Smart Designer"} url={"#"}></FooterLink>
+                <FooterLink text={"Job Connector"} url={"#"}></FooterLink>
+                <FooterLink text={"Digital Magazine"} url={"#"}></FooterLink>
+                <FooterLink text={"Blog"} url={"#"}></FooterLink>
+                <FooterLink text={"Pricing"} url={"#"}></FooterLink>
+                
+                
               </div>
             </div>
           </div>

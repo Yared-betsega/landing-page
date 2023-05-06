@@ -12,7 +12,7 @@ export default function FeatureCard({ imageUrl, headerText, descriptionText }) {
       <div className="px-4 ">
         <div className="font-bold  text-2xl md:text-3xl">{headerText}</div>
       </div>
-      <p className="font-medium">{descriptionText}</p>
+      <p className="font-medium text-base">{descriptionText}</p>
     </div>
   );
 }

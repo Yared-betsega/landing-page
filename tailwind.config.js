@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       fontFamily: {
         Montserrat: ['Montserrat', 'sans-serif'],
-        Poppins: ['Poppins', 'sans-serif']
+        Poppins: ['Poppins', 'sans-serif'],
+        Karla: ['Karla', 'sans-serif']
       },
       lineHeight:{
         '12':"3rem",

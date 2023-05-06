@@ -29,7 +29,7 @@ export default function Features() {
               ></FeatureCard>
             }
             tooltip={
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the"
+              "Revolutionize the way you design with our intelligent customization feature, giving you the power to effortlessly create personalized CVs, posters, brochures, banners, Research documents and more in just a few clicks."
             }
           ></FeatureCardWithTooltip>
           <FeatureCardWithTooltip
@@ -43,7 +43,7 @@ export default function Features() {
               ></FeatureCard>
             }
             tooltip={
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the"
+              "Find your dream job with ease through our innovative job connector feature, designed to match job seekers with top hirers based on their unique skills and experience."
             }
           ></FeatureCardWithTooltip>
           <FeatureCardWithTooltip
@@ -57,7 +57,7 @@ export default function Features() {
               ></FeatureCard>
             }
             tooltip={
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the"
+              "Discover the power of our all-in-one app, providing users with the flexibility to choose between social, professional, and business accounts - connecting them with a wide range of individuals and organizations to grow their network and achieve their goals."
             }
           ></FeatureCardWithTooltip>
 
@@ -72,7 +72,7 @@ export default function Features() {
               ></FeatureCard>
             }
             tooltip={
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the"
+              "Stay ahead of the game and explore the latest in entrepreneurship, leadership, innovation, and lifestyle with our cutting-edge digital magazine featuring the hottest topics and trends in the world of business."
             }
           ></FeatureCardWithTooltip>
         </div>

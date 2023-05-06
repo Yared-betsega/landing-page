@@ -24,7 +24,7 @@ export default function Account({ swap, image, title, description, url }) {
               <a
                 href={url}
                 style={{ textAlign: "end" }}
-                className="px-14 py-2 font-semibold text-xl tracking-wide text-white  transition-colors duration-300 transform bg-[#DAA624] rounded-xl hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80"
+                className="px-14 py-2 font-semibold text-xl tracking-wide text-[#DAA624]  transition-colors duration-300 transform bg-[#F8EED5] rounded-xl hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80"
               >
                 learn more
               </a>

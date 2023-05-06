@@ -9,7 +9,7 @@ export default function Download() {
         <div className="font-Poppins flex justify-center w-full sm:w-auto tracking-widest">
           <button
             style={{ textAlign: "end" }}
-            className="px-5  py-4 md:ml-5 text-sm md:text-normal font-semibold tracking-widest text-white  transition-colors duration-300 transform bg-[#B78B1E] rounded-xl hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80"
+            className="px-5  py-4 md:ml-5 text-sm md:text-normal font-semibold tracking-wide text-white  transition-colors duration-300 transform bg-[#B78B1E] rounded-xl hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80"
           >
             Get started with our web app
           </button>

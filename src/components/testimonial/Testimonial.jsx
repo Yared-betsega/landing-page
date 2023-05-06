@@ -99,7 +99,7 @@ export default function Testimonial() {
               <a
                 href="#"
                 style={{ textAlign: "end" }}
-                className="px-14 py-2  font-semibold text-xl tracking-wide text-white  transition-colors duration-300 transform bg-[#DAA624] rounded-xl hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80"
+                className="px-14 py-3  font-semibold text-xl tracking-wide text-white  transition-colors duration-300 transform bg-[#DAA624] rounded-xl hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80"
               >
                 learn more
               </a>

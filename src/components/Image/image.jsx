@@ -18,7 +18,7 @@ export default function Image() {
             owners, and entrepreneurs realize their potential and achieve
             success.
           </p>
-          <div className="flex items-center justify-center mt-20 gap-10 mx-0 md:mx-10 lg:mx-28  2xl:mx-56">
+          <div className="flex items-center justify-center mt-20 gap-5 sm:gap-10 mx-0 md:mx-10 lg:mx-28  2xl:mx-56">
             <OutlinedButton text={"Get Started"} shallow={false}></OutlinedButton>
             <OutlinedButton text={"How it Works"} shallow={true}></OutlinedButton>
           </div>

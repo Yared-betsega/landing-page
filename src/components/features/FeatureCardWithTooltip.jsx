@@ -30,7 +30,7 @@ export default function FeatureCardWithTooltip({ child, tooltip }) {
         <Button>{child}</Button>
       </PopoverHandler>
       <PopoverContent {...triggers} className="max-w-[26rem]">
-        <p className="text-base">{tooltip}</p>
+        <p className="font-Montserrat text-base">{tooltip}</p>
       </PopoverContent>
     </Popover>
   );

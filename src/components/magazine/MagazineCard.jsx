@@ -18,7 +18,7 @@ export default function MagazineCard({ swap, image, title, description, url }) {
               {title}
             </h1>
 
-            <p class="mt-6 my-4 text-base md:text-[1.3rem] font-[400] md:leading-relaxed tracking-wider">
+            <p class="mt-6 my-4 text-base md:text-[1.3rem] font-[350] md:leading-relaxed tracking-wider">
               {description}
             </p>
             <div className="flex mb-28">

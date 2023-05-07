@@ -26,7 +26,7 @@ export default function PriceCard({ type, price, description, actions, url }) {
         <a
           href={url}
           type="button"
-          className=" text-white bg-[#DAA624] hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-200 font-medium  text-base px-5 py-3.5 inline-flex justify-center w-full text-center"
+          className=" text-white bg-[#DAA624] hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-200 font-medium  text-base px-5 py-2.5 inline-flex justify-center w-full text-center"
         >
           Choose
         </a>

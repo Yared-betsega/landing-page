@@ -20,6 +20,9 @@ module.exports = {
         '4.5xl': "2.7rem",
         '5.5xl': "3.5rem"
       },
+      fontWeight:{
+        "light-normal": 300
+      }
     },
   },
   plugins: [],

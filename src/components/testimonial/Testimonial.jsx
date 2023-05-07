@@ -81,7 +81,7 @@ export default function Testimonial() {
           <div className="flex">
             <button
               style={{ textAlign: "end" }}
-              className="px-5 py-2 font-bold text-lg tracking-wide text-[#DAA624]  transition-colors duration-300 transform bg-[#F5EFDE] rounded-xl hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80"
+              className="px-5 py-2 font-bold text-lg tracking-wide  transition-colors duration-300 transform bg-[#F5EFDE] rounded-xl hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80"
             >
               Testimonies From Client
             </button>
@@ -91,7 +91,7 @@ export default function Testimonial() {
               What our client say about us
             </h1>
 
-            <p class=" mt-6 my-10 text-xl tracking-wide">
+            <p class=" mt-6 my-10 text-2xl leading-loose tracking-wide">
               Lorem Ipsum has been the industry's standard dummy text ever since
               the 1500s..
             </p>
@@ -101,7 +101,7 @@ export default function Testimonial() {
                 style={{ textAlign: "end" }}
                 className="px-14 py-3  font-semibold text-xl tracking-wide text-white  transition-colors duration-300 transform bg-[#DAA624] rounded-xl hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80"
               >
-                learn more
+                Learn More
               </a>
             </div>
           </div>
